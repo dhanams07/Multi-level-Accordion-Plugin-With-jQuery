@@ -7,7 +7,7 @@ simpleAccordion is a simple yet customizable jQuery accordion plugin which has s
 How to use it:
 =========
 
-:tw-1f449: Add the `data-behavior="accordion"` attribute to each accordion header and set the data-multiple to true if your accordion has nested accordion items.
+1. Add the `data-behavior="accordion"` attribute to each accordion header and set the data-multiple to true if your accordion has nested accordion items.
 
 ```html
 <div class="accordion-group" data-behavior="accordion">
@@ -39,16 +39,16 @@ How to use it:
 </div>
 ```
 
-:tw-1f449: Put jQuery library and the jQuery simpleAccordion plugin's script at the bottom of the html page.
+2. Put jQuery library and the jQuery simpleAccordion plugin's script at the bottom of the html page.
 ```javascript
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.simpleaccordion.js"></script>
 ```
-:tw-1f449: Initialize the plugin and done.
+3. Initialize the plugin and done.
 ```javascript
 $('[data-behavior=accordion]').simpleAccordion();
 ```
-:tw-1f449: There are a few options you can use when initializing the plugin.
+4. There are a few options you can use when initializing the plugin.
 ```javascript
 $('[data-behavior=accordion]').simpleAccordion({
 
@@ -75,7 +75,7 @@ $('[data-behavior=accordion]').simpleAccordion({
   
 });
 ```
-:tw-1f449: Apply your custom CSS styles to the accordion. Here're default CSS styles you can use them directly.
+5. Apply your custom CSS styles to the accordion. Here're default CSS styles you can use them directly.
 ```css
 .accordion-group { margin: 0 0 30px }
 
