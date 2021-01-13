@@ -11,7 +11,7 @@ How to use it:
 
 <pre>
 <code>
-<div class="accordion-group" data-behavior="accordion">
+<pre><div class="accordion-group" data-behavior="accordion"><pre>
   <pre>test</pre>
 </div>
 </code>
