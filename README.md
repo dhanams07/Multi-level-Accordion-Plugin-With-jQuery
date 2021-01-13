@@ -8,6 +8,7 @@ How to use it:
 =========
 
 1. Add the data-behavior="accordion" attribute to each accordion header and set the data-multiple to true if your accordion has nested accordion items.
+<pre>
 <code>
 "<div class="accordion-group" data-behavior="accordion">
   <p class="accordion-header default-open">
@@ -36,7 +37,7 @@ How to use it:
     </div>
   </div>
 </div>"
-</code>
+</code></pre>
 2. Put jQuery library and the jQuery simpleAccordion plugin's script at the bottom of the html page.
 
 <script src="js/jquery.min.js"></script>
