@@ -40,16 +40,16 @@ How to use it:
 ```
 
 2. Put jQuery library and the jQuery simpleAccordion plugin's script at the bottom of the html page.
-```js
+```javascript:
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.simpleaccordion.js"></script>
 ```
 3. Initialize the plugin and done.
-```js
+```javascript
 $('[data-behavior=accordion]').simpleAccordion();
 ```
 4. There are a few options you can use when initializing the plugin.
-```js
+```javascript
 $('[data-behavior=accordion]').simpleAccordion({
 
   // is multiple?
