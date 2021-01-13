@@ -11,33 +11,9 @@ How to use it:
 
 <pre>
 <code>
-<div class="accordion-group" data-behavior="accordion"> 
-  <p class="accordion-header default-open"> 
-    Item 1  
-  </p>  
-  <div class="accordion-body">  
-    Item 1  
-  </div>  
-  <p class="accordion-header">  
-    Item 2  
-  </p>  
-  <div class="accordion-body">  
-    <div class="accordion-group" data-behavior="accordion" data-multiple="true">  
-      <p class="accordion-header">  
-        Item 2.1  
-      </p>  
-      <div class="accordion-body">  
-        Item 2.1  
-      </div>  
-      <p class="accordion-header">  
-        Item 2.2  
-      </p>  
-      <div class="accordion-body">  
-        Item 2.2  
-      </div>  
-    </div>  
-  </div>  
-</div>  
+<div class="accordion-group" data-behavior="accordion">
+  <pre>test</pre>
+</div>
 </code>
 </pre>
 
