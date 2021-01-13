@@ -9,7 +9,7 @@ How to use it:
 
 1. Add the `data-behavior="accordion"` attribute to each accordion header and set the data-multiple to true if your accordion has nested accordion items.
 
-```php
+```xml
 <div class="accordion-group" data-behavior="accordion">
   <p class="accordion-header default-open">
     Item 1
