@@ -40,16 +40,16 @@ How to use it:
 ```
 
 2. Put jQuery library and the jQuery simpleAccordion plugin's script at the bottom of the html page.
-<pre>
+```js
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.simpleaccordion.js"></script>
-</pre>
+```
 3. Initialize the plugin and done.
-<pre>
+```js
 $('[data-behavior=accordion]').simpleAccordion();
-</pre>
+```
 4. There are a few options you can use when initializing the plugin.
-<pre>
+```js
 $('[data-behavior=accordion]').simpleAccordion({
 
   // is multiple?
@@ -74,9 +74,9 @@ $('[data-behavior=accordion]').simpleAccordion({
   cbOpen: null //function (e, $this) {}
   
 });
-</pre>
+```
 5. Apply your custom CSS styles to the accordion. Here're default CSS styles you can use them directly.
-<pre>
+```css
 .accordion-group { margin: 0 0 30px }
 
 .accordion-group { margin: 0 }
@@ -124,7 +124,7 @@ $('[data-behavior=accordion]').simpleAccordion({
   color: #333;
   font-weight: normal
 }
-</pre>
+```
 
 Credits :
 =========
