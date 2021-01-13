@@ -11,7 +11,7 @@ How to use it:
 
 <pre>
 <code>
-"<div class="accordion-group" data-behavior="accordion">
+<div class="accordion-group" data-behavior="accordion">
   <p class="accordion-header default-open">
     Item 1
   </p>
@@ -37,15 +37,15 @@ How to use it:
       </div>
     </div>
   </div>
-</div>"
+</div>
 </code>
 </pre>
 
 2. Put jQuery library and the jQuery simpleAccordion plugin's script at the bottom of the html page.
-
+<pre>
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.simpleaccordion.js"></script>
-
+</pre>
 3. Initialize the plugin and done.
 
 $('[data-behavior=accordion]').simpleAccordion();
